@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Work Sans", serif;
+}
+
+/* ========== Hero Section Start =========*/
+
+#hero {
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%), url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1920px;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero_contents {
+    width: 1023px;
+    height: 391px;
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* ========== Hero Section End =========*/
+
+/* ========== Food Section Start=========*/
+
+#food {
+    width: 1920px;
+    height: 1222px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food .food_box {
+    width: 1320px;
+    height: 871px;
+    padding:167px 300px 184px 300px;
+    align-items: center;
+}
+.food_container{
+  display: flex;
+  justify-content: space-between;  
+  margin-top: 18px;
+}
+.food_box_subtitle{
+color: rgb(16, 16, 16);
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+opacity: 0.6;
+padding-bottom: 16px;
+}
+.food_box_title{
+color: rgb(16, 16, 16);
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+text-align: center;
+padding-bottom: 48px;
+}
+.single_food_box{
+    width: 424px;
+    height: 522px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.single_food_box img{
+    width: 424px;
+    height: 283px;
+    border-radius: 16px;
+}
+.single_food_box .subtitle{
+width: 187px;
+height: 56px;
+padding: 14px 32px 14px 32px;
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+color: rgb(16, 16, 16);
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+margin-top: 32px;
+cursor:pointer;
+}
+.single_food_box .title{
+color: rgb(16, 16, 16);
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+margin: 24px 0;
+padding-bottom: 0;
+}
+.single_food_box .description{
+color: rgb(16, 16, 16);
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+}
+.food_btn{
+    margin-top: 64px;
+}
+
+
+/* ========== Food Section End =========*/
