@@ -184,7 +184,7 @@
     margin: 0 auto;
     height: 671px;
 }
-.folloUsTexts{
+.followUsTexts{
     width:830px;
     display: flex;
     justify-content: center;
@@ -192,14 +192,14 @@
     flex-direction: column;
     margin: 48px;
 }
-.folloUsTexts h2{
+.followUsTexts h2{
 color: rgb(16, 16, 16);
 font-size: 48px;
 font-weight: 700;
 line-height: 64px;
 text-align: center;
 }
-.folloUsTexts p{
+.followUsTexts p{
     color: rgb(16, 16, 16);
 font-size: 24px;
 font-weight: 500;
@@ -208,10 +208,14 @@ padding-top: 24px;
 padding-bottom: 48px;;
 opacity: 0.6;
 }
-.folloUsTexts>hr{
-border:1px solid lightgray;
+.followUsTexts hr{
+width: 80%;
+height: 1px;
+
 }
-.folloUsTexts h6{
+
+
+.followUsTexts h6{
 color: rgb(16, 16, 16);
 font-size: 32px;
 font-weight: 600;
@@ -224,6 +228,7 @@ opacity: 0.8;
 .socialIcons{
     display: flex;
     gap:30px;
+    margin-top: 30px;
 }
 .socialIcons i{
     font-size: 30px;
@@ -245,21 +250,6 @@ opacity: 0.8;
 /* ========== Discount Section End =========*/
 /* ========== Footer Section Start =========*/
 
-
-.footerContainer{
-    background-image: url(assets/social-bg.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 671px;
-    margin-top: 80px;
-} 
-
-
-
-/* 
 .footerContainer{
     position: relative;
     width: 100%;
@@ -280,7 +270,7 @@ opacity: 0.8;
   background-position: center;
   opacity: 0.2; 
   z-index: 1;
-} */
+} 
 
 
 
